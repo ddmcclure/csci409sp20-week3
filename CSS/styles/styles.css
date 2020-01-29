@@ -1,0 +1,56 @@
+body {
+	font-size: 20px;
+	background-color: #aaaaaa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.stocks {
+	width: 100%;
+	text-align: center;
+}
+
+.stock:nth-child(even) {
+	background-color: #efefef;
+}
+
+.stock:nth-child(odd) {
+	background-color: #3e3e3e;
+	color: #ffffff;
+}
+
+.money:before {
+	content: '$';
+}
+	
+
+.dropcap::first-letter {
+	font-color: #903;
+	float: left;
+	font-size: 40px;
+	line-height: 45px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+.smalltext {
+	font-size: 0.6em;
+}
+
+.textinput {
+	background-color: #ffffff;
+	border-color: #dbdbdb;
+	border-radius: 4px;
+	color: inherit;
+}
+
+.textinput:active {
+	border-color: #3273dc;
+}
+
+.textinput:focus {
+	border-color: #3273dc;
+}
